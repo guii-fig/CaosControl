@@ -51,8 +51,9 @@ nav a {
 }
 
 nav a:hover {
-  color:#5ce6a8 ;
+  color: #5ce6a8;
 }
+
 .icons {
   cursor: pointer;
   font-size: 2rem;
@@ -81,7 +82,7 @@ nav a:hover {
 }
 
 
-/* HOME PAGE */ 
+/* HOME PAGE */
 #welcome {
   margin-top: 70px;
   width: 100%;
@@ -186,7 +187,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   color: white;
 }
 
@@ -202,7 +203,7 @@ footer {
   display: none;
 }
 
-/* PROFILE PAGE*/ 
+/* PROFILE PAGE*/
 #profile-main {
   width: 100%;
   height: auto;
@@ -248,7 +249,7 @@ footer {
   color: aliceblue;
 }
 
-/* SYSTEM PAGE*/ 
+/* SYSTEM PAGE*/
 #setor-block {
   width: 100%;
   height: auto;
@@ -501,7 +502,7 @@ main a {
   margin-left: 10px;
 }
 
-/* PÁGINAS DE PRODUTOS*/ 
+/* PÁGINAS DE PRODUTOS*/
 
 .main-container {
   margin-top: 40px;
@@ -521,7 +522,7 @@ main a {
   margin-bottom: 8px;
 }
 
-#find{
+#find {
   margin-top: 5%;
   margin-left: 15%;
   width: 70%;
@@ -558,9 +559,26 @@ main a {
   border-radius: 10px;
 }
 
-#statistics {
-  background-color: red;
-  height: 100px;
+.table {
+  width: 90%;
+  height: 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #272727;
+}
+
+.info {
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #5ce6a8;
 }
 
 /*QUEBRA DE PÁGINA */
@@ -579,6 +597,7 @@ main a {
     height: auto;
     display: block;
   }
+
   .image {
     width: 100%;
     height: auto;
@@ -587,9 +606,9 @@ main a {
   .title-box-pc {
     display: block;
   }
-  
+
   .title-box {
-   display: none;
+    display: none;
   }
 
   /*PROFILE PAGE*/
@@ -603,7 +622,7 @@ main a {
     height: 300px;
   }
 
-  /*SYSTEM PAGE*/ 
+  /*SYSTEM PAGE*/
   #principal {
     margin-left: 5%;
     width: 90%;
