@@ -628,7 +628,6 @@ main a {
 @media(min-width: 500px) {
 
   .block {
-    background-color: purple;
     display: flex;
     justify-content: space-around;
     align-items: center;
