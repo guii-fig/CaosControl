@@ -6,3 +6,5 @@ O site em questão foi desenvolvido como projeto de estudo para o PROJETO INTEGR
    e praticar minhas habilidades em HTML e CSS. Esse, é o segundo site que desenvolvo, sendo assim, pode parecer robusto e
    grosseiro, tanto nos códigos, quanto na aparênica.
     Acompanhe um pouco mais do meu desenvolvimento no instagram: https://www.instagram.com/fig.code/
+
+    teste
