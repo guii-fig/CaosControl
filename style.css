@@ -638,16 +638,19 @@ main a {
   margin-top: 70px;
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .video-content {
   width: 80%;
-  margin-left: 10%;
   height: auto;
   margin-top: 50px;
   color: white;
   text-align: center;
   font-size: 19px;
+  cursor: pointer;
 }
 
 .video {
@@ -762,5 +765,19 @@ main a {
     font-size: 40px;
     margin-top: 7px;
     display: block;
+  }
+
+  /*pagina videos*/
+
+  #video-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .video-content {
+    width: 80%;
   }
 }
