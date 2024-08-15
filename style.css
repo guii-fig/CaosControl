@@ -22,6 +22,9 @@ header {
   color: white;
 }
 
+header a {
+  color: white;
+}
 nav {
   position: absolute;
   top: 75px;
@@ -88,12 +91,17 @@ nav a:hover {
   width: 100%;
   height: auto;
   align-items: center;
-  justify-content: space-evenly;
-  color: white;
+  justify-content: center;
+  color: white; 
 }
 
-h1 {
+#welcome h1 {
+  margin: 2% 5%;
   font-size: 36px;
+}
+
+#welcome h5 {
+  margin: 2% 5%;
 }
 
 .title-home {
@@ -622,6 +630,30 @@ main a {
   border-radius: 10px;
   border: none;
   font-size: 20px;
+}
+
+/* Pagina video*/ 
+
+#video-container {
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+}
+
+.video-content {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 /*QUEBRA DE PÁGINA */
