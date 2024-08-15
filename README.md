@@ -7,4 +7,3 @@ O site em questão foi desenvolvido como projeto de estudo para o PROJETO INTEGR
    grosseiro, tanto nos códigos, quanto na aparênica.
     Acompanhe um pouco mais do meu desenvolvimento no instagram: https://www.instagram.com/fig.code/
 
-    teste

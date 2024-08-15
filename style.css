@@ -378,6 +378,10 @@ main a {
   justify-content: space-evenly;
 }
 
+.main-container span {
+  width: 49%;
+}
+
 .main-container h2 {
   color: #5ce6a8;
 }
@@ -411,7 +415,8 @@ main a {
 }
 
 #edit:hover {
-  border: solid 3px;
+  background-color: #5ce6a8;
+  color: #323232;
 }
 
 .box {
@@ -446,25 +451,6 @@ main a {
   text-align: center;
   color: #5ce6a8;
 }
-
-.qr-code {
-  width: 80%;
-  height: 315px;
-  border-radius: 10px;
-}
-
-.qr-pc {
-  display: none;
-}
-.bx-download {
- display: none;
-}
-
-.one1 {
-  background-image: url(./qrcode/qr\ one.png);
-  background-size: contain;
-}
-
 
 /* Pagina de erro*/ 
 
@@ -591,7 +577,7 @@ main a {
 
   #find {
     width: 30%;
-    margin-left: 18.5%;
+    margin-left: 6.8%;
   }
 
   .box {
